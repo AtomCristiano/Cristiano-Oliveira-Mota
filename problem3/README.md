@@ -48,7 +48,7 @@ The Scoreboard API service is a backend application that provides functionality 
     ```
 
 ### 3. **Diagram of the flow of execution**
-    ```
+    ```lua
     +-----------+       +---------------------+       +---------------------+       +--------------------------+
     |  Client   |  ---> | POST /update-score   |  ---> | Validate Token       |  ---> | Update Score in DB        |
     | Completes |       | (send score + token) |       | (Authentication)     |       | (Update score if valid)   |
