@@ -37,5 +37,5 @@ To run the server in development mode with automatic reload on changes, use:
 
 ```bash
 npm run dev
-
+```
 This project is licensed under the MIT License.
